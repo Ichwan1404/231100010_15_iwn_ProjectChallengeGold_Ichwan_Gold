@@ -1,0 +1,27 @@
+:root {
+--primary05: #091B6F;
+--primary04: #0D28A6;
+--primary03: #5E70C4;
+--primary02: #AEB7E1;
+--primary01: #CFD4ED;
+
+
+--secondary05: #3D7B3F;
+--secondary04: #5CB85F;
+--secondary03: #92D094;
+--secondary02: #C9E7CA;
+--secondary01: #DEF1DF;
+
+
+--tambahan03: #FA2C5A;
+--tambahan02: #F9CC00;
+--tambahan01: #73CA5C;
+
+
+--latar04: #151515;
+--latar03: #3C3C3C;
+--latar02: #8A8A8A;
+--latar01: #D0D0D0;
+--terang : #FFFFFF; 
+--gelap  : #000000;
+}
