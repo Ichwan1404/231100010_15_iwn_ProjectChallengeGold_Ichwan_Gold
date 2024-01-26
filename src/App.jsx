@@ -9,14 +9,14 @@ import FaqPage from "./Pages1/FaqPage";
 import TestimonialPage from "./Pages1/TestimonialPage";
 import WhyUsPage from "./Pages1/WhyUsPage";
 import CariMobil from "./Pages2/CariMobil";
-import DetailMobil from "./Pages2/DetailMobil"; 
+import DetailMobil from "./Pages2/DetailMobil";
 import HasilMobil from "./Pages2/HasilMobil";
 
 function App() {
   return (
     <div>
       <NavbarCom />
-    
+
       <Routes>
         <Route path="/" Component={HomePage} />
         <Route path="Ourservice" Component={OurServicePage} />
@@ -24,10 +24,10 @@ function App() {
         <Route path="Testimonial" Component={TestimonialPage} />
         <Route path="Whyus" Component={WhyUsPage} />
         <Route path="/CariMobil" Component={CariMobil} />
-        <Route path="/CariMobil/HasilMobil/" Component={HasilMobil} />
-        <Route path="/CariMobil/HasilMobil/DetailMobil/:id" Component={DetailMobil} />
+        <Route path="/HasilMobil" Component={HasilMobil} />
+        <Route path="/DetailMobil/:id" Component={DetailMobil} />
       </Routes>
-    
+
       {/* <FooterCom /> */}
     </div>
   );
